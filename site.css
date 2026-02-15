@@ -60,7 +60,8 @@ hr{
     float: right;
     display: inline-block;
     margin: 10px;
-    width: 30%
+    height: 600px;
+    width: 300px
 }
 
 #text_box{
