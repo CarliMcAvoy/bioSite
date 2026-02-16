@@ -53,18 +53,18 @@ nav a:hover{
 
 #image{
     float: left;
-    display: inline-block;
-    height: 300px;
-    width: 500px;
+    display: block;
+    max-height: 15%;
+    max-width: 30%;
     margin: 5% 5px 5% 5px;
 
 }
 
 #text_box{
     display: grid;
-    float: left;
+    text-align: left;
     padding: 10px;
-    margin: 20px;
+    margin: 5%;
     width: 650px;
     line-height: 1.4
 }
