@@ -54,16 +54,18 @@ nav a:hover{
 #image{
     float: left;
     display: inline-block;
-    height: 400px;
-    width: 700px;
+    height: 300px;
+    width: 500px;
     margin: 5% 5px 5% 5px;
 
 }
 
 #text_box{
     display: grid;
-    text-align: left;
-    margin: 10px;
-    width: 650px
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    width: 650px;
+    line-height: 1.4
 }
 
