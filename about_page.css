@@ -64,7 +64,6 @@ nav a:hover{
 #text_box{
     display: grid;
     float: left;
-    padding: 10px;
     margin: 5%;
     width: 650px;
     line-height: 1.4
