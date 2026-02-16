@@ -54,8 +54,8 @@ nav a:hover{
 #image{
     float: left;
     display: inline-block;
-    max-height: 400px;
-    max-width: 600px;
+    max-height: 15%;
+    max-width: 30%;
     padding: 5px;
     margin: 5% 5px 5% 5px;
 
@@ -63,7 +63,8 @@ nav a:hover{
 
 #text_box{
     display: block;
-    float: left;
+    text-align: left;
+    padding: 10px;
     margin: 5%;
     width: 650px;
     line-height: 1.4
