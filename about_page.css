@@ -38,7 +38,9 @@ nav a:hover{
 
 #top_page{
     display: grid;
-    grid-template-columns: 30% 30%
+    grid-template-columns: 30% 30%;
+    margin: 5% 5px;
+    padding: 5px
 }
 
 #header{
@@ -48,7 +50,7 @@ nav a:hover{
     font-size: 32px;
     line-height: 0.6;
     float: right;
-    display: inline-block;
+    
     margin: 5% 5px 5% 5px
 }
 
@@ -58,7 +60,7 @@ nav a:hover{
 
 #image{
     float: left;
-    display: block;
+    
     max-height: 400px;
     max-width: 600px;
     padding: 10px;
@@ -67,7 +69,7 @@ nav a:hover{
 }
 
 #text_box{
-    display: grid;
+    display: block;
     float: left;
     margin: 5%;
     width: 650px;
