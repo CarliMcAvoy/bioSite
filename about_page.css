@@ -52,7 +52,6 @@ nav a:hover{
 }
 
 #image{
-    float: left;
     display: block;
     max-height: 15%;
     max-width: 30%;
