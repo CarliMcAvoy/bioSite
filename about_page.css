@@ -36,6 +36,11 @@ nav a:hover{
     text-shadow: 2px 2px 4px grey
 }
 
+#top_page{
+    display: grid;
+    grid-template-columns: 30% 30%
+}
+
 #header{
     font-family: "Playfair Display", serif;
     font-weight: 600;
