@@ -57,17 +57,13 @@ nav a:hover{
 
 #image{
     float: left;
-    position: relative;
     margin: 5% 5px 5% 5px;
 }
 
 #image img{
-    position: relative;
     max-height: 20%;
     max-width: 30%;
-    padding: 5px;
     display: block;
-    z-index: 2;
     border: 15px solid #4A8787
 }
 
