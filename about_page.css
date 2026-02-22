@@ -43,6 +43,7 @@ nav a:hover{
     font-size: 32px;
     line-height: 0.6;
     float: right;
+    overflow-wrap: break-word;
     display: inline-block;
     margin: 5% 5px 5% 5px
 }
@@ -54,11 +55,32 @@ nav a:hover{
 #image{
     float: left;
     display: inline-block;
-    max-height: 15%;
-    max-width: 30%;
-    padding: 5px;
+    position: relative;
     margin: 5% 5px 5% 5px;
+}
 
+#image img{
+    position: relative;
+    max-height: 10%;
+    max-width: 20%;
+    padding: 5px;
+    display: block;
+    z-index: 2
+}
+
+#image::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 15px solid #4A8787;
+    top: 15px;
+    left: 15px;
+    z-index: 1
+}
+
+figcaption{
+    font-style: italic
 }
 
 #text_box{
@@ -68,5 +90,13 @@ nav a:hover{
     margin: 5%;
     width: 650px;
     line-height: 1.4
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center
 }
 

@@ -64,6 +64,10 @@ hr{
     width: 400px
 }
 
+#image img{
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5)
+}
+
 #text_box{
     font-size: 20px;
     width: 450px;
@@ -76,3 +80,14 @@ hr{
 figcaption{
     font-style: italic
 }
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center
+}
+
+
+

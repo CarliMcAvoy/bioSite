@@ -56,5 +56,38 @@ p{
 }
 
 img{
-    float: right
+    float: right;
+    margin: 10px;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5)
 }
+
+figcaption{
+    font-style: italic
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center
+}
+ul{
+    list-style-type: none
+}
+
+ul a{
+    color: #154747;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none
+}
+ ul a:hover{
+     color: white;
+     text-shadow: 2px 2px 4px grey
+ }
+
+ #external h2{
+     color: #033333;
+     margin: 5%
+ }
