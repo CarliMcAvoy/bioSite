@@ -61,8 +61,8 @@ nav a:hover{
 
 #image img{
     position: relative;
-    max-height: 10%;
-    max-width: 20%;
+    max-height: 20%;
+    max-width: 30%;
     padding: 5px;
     display: block;
     z-index: 2
@@ -71,8 +71,8 @@ nav a:hover{
 #image::after{
     content: "";
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 20%;
+    width: 30%;
     border: 15px solid #4A8787;
     top: 15px;
     left: 15px;
@@ -80,7 +80,8 @@ nav a:hover{
 }
 
 figcaption{
-    font-style: italic
+    font-style: italic;
+    margin-top: 10px
 }
 
 #text_box{

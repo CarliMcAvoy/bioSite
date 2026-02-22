@@ -57,12 +57,14 @@ p{
 
 img{
     float: right;
+    display: inline-block;
     margin: 10px;
     box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5)
 }
 
 figcaption{
-    font-style: italic
+    font-style: italic;
+    margin-top: 10px
 }
 
 footer{
