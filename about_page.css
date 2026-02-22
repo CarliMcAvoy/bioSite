@@ -36,6 +36,10 @@ nav a:hover{
     text-shadow: 2px 2px 4px grey
 }
 
+#top_page{
+    display: inline-block
+}
+
 #header{
     font-family: "Playfair Display", serif;
     font-weight: 600;
@@ -98,6 +102,7 @@ footer{
     bottom: 0;
     width: 100%;
     position: fixed;
-    text-align: center
+    text-align: center;
+    margin-top: auto
 }
 
