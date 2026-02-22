@@ -37,7 +37,10 @@ nav a:hover{
 }
 
 #top_page{
-    display: inline-block
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 5%
 }
 
 #header{
