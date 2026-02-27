@@ -70,6 +70,7 @@ hr{
 #image{
     float: right;
     display: inline-block;
+    vertical-align: top; 
     margin: 10px;
     height: 900px;
     width: 450px
