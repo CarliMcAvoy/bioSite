@@ -70,15 +70,15 @@ hr{
 #image{
     float: right;
     display: inline-block;
-    margin: 5% 10px 10px 10px;
-    height: 950px;
-    width: 450px
+    margin: 5% 10px 10px 10px
 }
 
 #image img{
     box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    border-radius: 3px
+    border-radius: 3px;
+    height: 300px;
+    width: 150px
 }
 
 #text_box{
