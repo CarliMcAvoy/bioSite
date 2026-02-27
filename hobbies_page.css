@@ -78,6 +78,7 @@ hr{
     padding: 2%;
     margin: 10px;
     box-shadow: 5px 5px 10px 0 rgba(74, 135, 135);
+    border-left: 6px solid #033333;
 }
 
 #hobby_two{
@@ -87,6 +88,7 @@ hr{
     padding: 2%;
     margin: 10px;
     box-shadow: 5px 5px 10px 0 rgba(74, 135, 135);
+    border-left: 6px solid #033333;
 }
 
 #hobby_three{
@@ -96,6 +98,7 @@ hr{
     padding: 2%;
     margin: 10px;
     box-shadow: 5px 5px 10px 0 rgba(74, 135, 135);
+    border-left: 6px solid #033333;
 }
 
 #hobby_four{
@@ -105,6 +108,7 @@ hr{
     padding: 2%;
     margin: 10px;
     box-shadow: 5px 5px 10px 0 rgba(74, 135, 135);
+    border-left: 6px solid #033333;
 }
 
 p{
