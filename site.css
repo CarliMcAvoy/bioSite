@@ -55,13 +55,14 @@ nav a:hover{
 #heading{
     margin: 5% 5% 5px 5%;
     font-size: 60px;
+    display: inline-block
 }
 
 hr{
     border: none;
     height: 2px;
     float: left;
-    width: 33%;
+    width: 100%;
     background-color: #4A8787;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
 }
