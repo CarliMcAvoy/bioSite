@@ -21,7 +21,7 @@ header{
 
 body{
     background-color: #dddddd;
-    margin: 0
+    margin: 0;
 }
 
 nav{
@@ -70,14 +70,15 @@ hr{
 #image{
     float: right;
     display: inline-block;
-    margin: 10px;
-    height: 900px;
+    margin: 5% 10px 10px 10px;
+    height: 950px;
     width: 450px
 }
 
 #image img{
     box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
-    border: 1px solid black
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 3px
 }
 
 #text_box{
