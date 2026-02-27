@@ -89,7 +89,8 @@ figcaption{
 }
 
 #text_box h2{
-    font-size: 24px
+    font-size: 26px;
+    color: #033333
 }
 
 #text_box p{
