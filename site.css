@@ -6,9 +6,7 @@ html{
 
 #container{
     background-color: #C7C7C7;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 5%;
+    margin: 5% 20px 10% 20px;
     border-radius: 15px;
     padding-top: 5px
 }
@@ -20,7 +18,11 @@ header{
 }
 
 body{
-    background-color: #dddddd;
+    background-image: url("photos/foliage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -98,10 +100,17 @@ figcaption{
 }
 
 footer{
+    color: black;
+    background-color: #ACC9CA;
     margin: 0;
     width: 100%;
     position: absolute;
-    text-align: center
+    box-shadow: 0 0 5px 5px rgba(255 255 255)
+}
+
+footer p{
+    float: left;
+    margin: 10px
 }
 
 

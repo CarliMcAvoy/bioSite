@@ -5,8 +5,12 @@ html{
 }
 
 body{
-    background-color: #dddddd;
-    margin: 0
+    background-image: url("photos/foliage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
 }
 
 nav{
@@ -41,7 +45,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    gap: 5%;
+    gap: 10px;
     background-color: #C7C7C7;
     border-radius: 15px;
     margin: 5% 10px 5% 10px;
@@ -54,23 +58,21 @@ nav a:hover{
     font-style: normal;
     font-size: 32px;
     line-height: 0.6;
-    float: right;
+    line-spacing: 2px;
+    color: #033333;
+    text-align: left;
     overflow-wrap: break-word;
-    margin: 5% 5px 5% 5px
-}
-
-#header h1{
-    color: #033333
+    margin: 5% 5px 5% 0
 }
 
 #image{
     float: left;
-    margin: 5% 5px 5% 5px;
+    margin: 5% 2px 5% 5px;
 }
 
 #image img{
     height: 350px;
-    width: 600px;
+    width: 550px;
     display: block;
     box-shadow: 0px 0px 15px 5px rgba(74, 135, 135);
     border-radius: 5px
@@ -84,7 +86,7 @@ figcaption{
 #text_box{
     display: block;
     text-align: left;
-    margin: 5%;
+    margin: 5% 5% 20% 5%;
     width: 60%;
 }
 
@@ -102,7 +104,7 @@ figcaption{
     background-color: #C7C7C7;
     border-radius: 15px;
     padding: 5%;
-    margin: 10px;
+    margin: 5%;
     box-shadow: 0px 0px 15px 0 rgba(74, 135, 135);
 }
 
@@ -110,7 +112,7 @@ figcaption{
     background-color: #C7C7C7;
     border-radius: 15px;
     padding: 5%;
-    margin: 10px;
+    margin: 5%;
     box-shadow: 0px 0px 15px 0 rgba(74, 135, 135);
 }
 
@@ -118,14 +120,21 @@ figcaption{
     background-color: #C7C7C7;
     border-radius: 15px;
     padding: 5%;
-    margin: 10px;
+    margin: 5%;
     box-shadow: 0px 0px 15px 0 rgba(74, 135, 135);
 }
 
 footer{
+    color: black;
+    background-color: #ACC9CA;
     margin: 0;
     width: 100%;
     position: absolute;
-    text-align: center
+    box-shadow: 0 0 5px 5px rgba(255 255 255)
+}
+
+footer p{
+    float: left;
+    margin: 10px
 }
 
